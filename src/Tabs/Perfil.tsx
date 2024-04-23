@@ -16,10 +16,6 @@ export default function Perfil(){
                 <Text>Santa Catarina</Text>
 
                 <Divider mt={5} />
-
-                <Titulo color={'blue.500'} mb={1}>Histórico Médico</Titulo>
-                <Text>Bronquite</Text>
-                <Text>Coração</Text>
             </VStack>
         </ScrollView>
     )

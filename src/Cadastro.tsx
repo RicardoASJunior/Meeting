@@ -24,7 +24,7 @@ export default function Cadastro() {
 
   return (
     <ScrollView flex={1} p={5}>
-      <Image source={Logo} alignSelf={"center"} alt="Logo Voll" />
+      <Image source={Logo} alignSelf={"center"} alt="Logo Voll" size={'xl'}/>
 
      <Titulo>
       {secoes[numSecao].titulo}

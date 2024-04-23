@@ -3,7 +3,6 @@ import Ionicons from 'react-native-vector-icons/Ionicons'
 
 import Principal from "./Principal";
 import Consultas from "./Consultas";
-import Explorar from "./Explorar";
 import Perfil from "./Perfil";
 import { Component } from "react";
 
@@ -20,24 +19,18 @@ const screenOptions = {
 const tabs = [
     {
         id: 1,
-        name: 'Principal',
+        name: 'Cadastro',
         component: Principal,
-        icon: 'home'
+        icon: 'file-tray'
     },
     {
         id: 2,
-        name: 'Consultas',
+        name: 'Cadastrados',
         component: Consultas,
-        icon: 'calendar'
-    },
-    {
-        id: 3,
-        name: 'Explorar',
-        component: Explorar,
         icon: 'search'
     },
     {
-        id: 4,
+        id: 3,
         name: 'Perfil',
         component: Perfil,
         icon: 'person'

@@ -8,7 +8,7 @@ import Tabs from './Tabs';
 export default function Login({ navigation }) {
   return (
     <VStack flex={1} alignItems={"center"} justifyContent={'center'} p={5}>
-      <Image source={Logo} alt="Logo Voll" />
+      <Image source={Logo} alt="Logo" />
 
      <Titulo>
       Faça Login em sua conta
@@ -41,7 +41,7 @@ export default function Login({ navigation }) {
 
       <Botao onPress={() => navigation.navigate('Tabs')}>Entrar</Botao>
 
-      <Link href='https://www.alura.com.br' mt={2}>
+      <Link href='' mt={2}>
         Esqueceu sua senha?
       </Link>
 

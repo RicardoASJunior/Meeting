@@ -28,7 +28,7 @@ const secoes = [
     },
     {
       id: 2,
-      titulo: 'Agora, mais alguns dados sobre você:',
+      titulo: 'Agora, mais alguns dados sobre você para finalizar:',
       entradaTexto: [
         {
           id: 1,
@@ -58,45 +58,6 @@ const secoes = [
       ],
       checkbox: []
     },
-    {
-      id: 3,
-      titulo: 'Para finalizar, quais são seus planos?',
-      entradaTexto: [],
-      checkbox: [
-        {
-          id: 1,
-          value: 'Sulamerica'
-        },
-        {
-          id: 2,
-          value: 'Unimed'
-        },
-        {
-          id: 3,
-          value: 'Bradesco'
-        },
-        {
-          id: 4,
-          value: 'Amil'
-        },
-        {
-          id: 5,
-          value: 'Biosaúde'
-        },
-        {
-          id: 6,
-          value: 'Biovida'
-        },
-        {
-          id: 7,
-          value: 'Outros'
-        },
-        {
-          id: 8,
-          value: 'Não tenho plano'
-        }
-      ]
-    }
   ]
 
 export{ secoes }
